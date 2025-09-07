@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Découvrez mes projets de développement web et applications. Portfolio de ZIOUBOU Pierre, étudiant en informatique option Génie Logiciel.">
+    <meta name="keywords" content="portfolio, développeur web, projets, ZIOUBOU Pierre, génie logiciel, développement web">
+    <meta name="author" content="ZIOUBOU Pierre">
+    <title>Projets - Portfolio ZIOUBOU Pierre</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Slab:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <a href="index.html" class="header__logo" aria-label="Retour à l'accueil">
+                ZIOUBOU Pierre
+            </a>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Accueil</a></li>
+                    <li class="nav__item"><a href="skill.html" class="nav__link">Compétences</a></li>
+                    <li class="nav__item"><a href="project.html" class="nav__link nav__link--active">Projets</a></li>
+                    <li class="nav__item"><a href="about.html" class="nav__link">À propos</a></li>
+                    <li class="nav__item"><a href="contact.html" class="nav__link">Contact</a></li>
+                    <li class="nav__item">
+                        <button id="theme-toggle" class="theme-toggle" aria-label="Changer le thème du site">
+                            <span class="theme-icon">🌓</span>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main projects-page">
+        <section class="page-header" data-animate="fade-in">
+            <div class="container">
+                <h1 class="page-header__title">Mes Projets</h1>
+                <p class="page-header__lead">Découvrez une sélection de mes réalisations professionnelles et personnelles</p>
+            </div>
+        </section>
+
+        <section class="projects-showcase">
+            <div class="container">
+                <article class="project-card" data-category="web" data-animate="fade-up">
+                    <div class="project-card__inner">
+                        <div class="project-card__image">
+                            <img src="static/Image/Calculateur_pret.png"
+                                alt="Calculateur de prêt - Capture d'écran"
+                                loading="lazy"
+                                width="800"
+                                height="500">
+                            <div class="project-card__overlay">
+                            </div>
+                        </div>
+                        <div class="project-card__content">
+                            <div class="project-card__header">
+                                <h3 class="project-card__title">Calculateur de prêt</h3>
+                                <span class="project-card__date">Juin 2024</span>
+                            </div>
+                            <p class="project-card__description">Application web complète permettant de calculer les mensualités d'un prêt immobilier ou à la consommation avec visualisation graphique des remboursements.</p>
+                            <div class="project-card__features">
+                                <h4>Fonctionnalités clés :</h4>
+                                <ul>
+                                    <li>Calcul en temps réel des mensualités</li>
+                                    <li>Tableau d'amortissement détaillé</li>
+                                    <li>Graphiques interactifs avec Chart.js</li>
+                                    <li>Interface responsive et accessible</li>
+                                </ul>
+                            </div>
+                            <div class="project-card__footer">
+                                <div class="project-card__tech">
+                                    <span class="tech-tag">HTML5</span>
+                                    <span class="tech-tag">CSS3</span>
+                                    <span class="tech-tag">JavaScript</span>
+                                    <span class="tech-tag">Chart.js</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="web design" data-animate="fade-up" data-animate-delay="0.1s">
+                    <div class="project-card__inner">
+                        <div class="project-card__image">
+                            <img src="static/Image/ProjetPortfolio.png"
+                                alt="Portfolio personnel - Capture d'écran"
+                                loading="lazy"
+                                width="800"
+                                height="500">
+                            <div class="project-card__overlay">
+                            </div>
+                        </div>
+                        <div class="project-card__content">
+                            <div class="project-card__header">
+                                <h3 class="project-card__title">Portfolio Personnel</h3>
+                                <span class="project-card__date">Mai 2024</span>
+                            </div>
+                            <p class="project-card__description">Site web personnel présentant mon parcours, mes compétences et mes réalisations avec un design moderne et une expérience utilisateur optimisée.</p>
+                            <div class="project-card__features">
+                                <h4>Points forts :</h4>
+                                <ul>
+                                    <li>Design moderne et épuré</li>
+                                    <li>Navigation fluide et intuitive</li>
+                                    <li>Section projets détaillée</li>
+                                    <li>Formulaire de contact fonctionnel</li>
+                                </ul>
+                            </div>
+                            <div class="project-card__footer">
+                                <div class="project-card__tech">
+                                    <span class="tech-tag">HTML5</span>
+                                    <span class="tech-tag">Sass</span>
+                                    <span class="tech-tag">JavaScript</span>
+                                    <span class="tech-tag">Responsive</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="section cta-section" data-animate="fade-up">
+            <div class="container">
+                <h2 class="cta-section__title">Vous avez un projet en tête ?</h2>
+                <p class="cta-section__subtitle">Je suis toujours ouvert à de nouvelles opportunités et collaborations intéressantes.</p>
+                <a href="contact.html" class="btn btn--primary btn--lg">Me contacter</a>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2025 Pierre ZIOUBOU. Tous droits réservés.</p>
+    </footer>
+    <script src="static/js/main.js" defer></script>
+</body>
+</html>

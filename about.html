@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Découvrez le parcours de ZIOUBOU Pierre, étudiant en informatique et développeur passionné. Apprenez-en plus sur ma mission et mes valeurs.">
+    <title>À propos - Portfolio ZIOUBOU Pierre</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Slab:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <a href="index.html" class="header__logo" aria-label="Retour à l'accueil">
+                ZIOUBOU Pierre
+            </a>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Accueil</a></li>
+                    <li class="nav__item"><a href="skill.html" class="nav__link">Compétences</a></li>
+                    <li class="nav__item"><a href="project.html" class="nav__link">Projets</a></li>
+                    <li class="nav__item"><a href="about.html" class="nav__link nav__link--active">À propos</a></li>
+                    <li class="nav__item"><a href="contact.html" class="nav__link">Contact</a></li>
+                    <li class="nav__item">
+                        <button id="theme-toggle" class="theme-toggle" aria-label="Changer le thème du site">
+                            <span class="theme-icon">🌓</span>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main about-page">
+        <section class="page-header" data-animate="fade-in">
+            <div class="container">
+                <h1 class="page-header__title">À propos de moi</h1>
+                <p class="page-header__lead">Développeur passionné par la création de solutions numériques innovantes</p>
+            </div>
+        </section>
+        
+        <section class="section about-content" data-animate="fade-up">
+            <div class="container">
+                <div class="about-grid">
+                    <article class="about-text">
+                        <div class="section__header">
+                            <h2 class="section__title">Qui suis-je ?</h2>
+                            <div class="divider"></div>
+                        </div>
+                        <p class="lead">
+                            Je suis <strong>étudiant en informatique, option Génie Logiciel</strong>, passionné par le <strong>développement web</strong> et les technologies numériques.
+                        </p>
+                        <p>
+                            Mon parcours m'a permis de découvrir la puissance de la programmation comme moyen de créer des solutions innovantes et utiles qui améliorent le quotidien des utilisateurs.
+                        </p>
+                        <div class="about-details">
+                            <div class="detail-item">
+                                <h3>Formation</h3>
+                                <p>Étudiant en Génie Logiciel</p>
+                                <p class="text-muted">Université Virtuelle du Burkina Faso</p>
+                            </div>
+                            <div class="detail-item">
+                                <h3>Spécialités</h3>
+                                <p>Développement Web Frontend</p>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <div class="profile-image-container" data-animate="fade-left">
+                        <div class="profile-image">
+                            <img src="static/Image/Portfolio.jpeg" 
+                                alt="Portrait professionnel de ZIOUBOU Pierre" 
+                                loading="lazy"
+                                width="500"
+                                height="500"
+                            >
+                        </div>
+                    </div>
+                </div>
+                
+                <article class="about-mission" data-animate="fade-up">
+                    <div class="section__header">
+                        <h2 class="section__title">Ma Mission</h2>
+                        <div class="divider"></div>
+                    </div>
+                    <p>
+                        Mon objectif est d'<strong>acquérir de nouvelles compétences en travaillant sur des projets collaboratifs</strong>, afin de renforcer mon expérience pratique et évoluer vers le métier de <strong>développeur full-stack</strong>, avec l'ambition de devenir par la suite <strong>expert en cybersécurité</strong>.
+                    </p>
+                    <div class="values-grid">
+                        <div class="value-card card">
+                            <div class="value-icon">🚀</div>
+                            <h3>Innovation</h3>
+                            <p>Je recherche constamment de nouvelles technologies et méthodes pour améliorer mes compétences.</p>
+                        </div>
+                        <div class="value-card card">
+                            <div class="value-icon">🔒</div>
+                            <h3>Sécurité</h3>
+                            <p>La protection des données et la cybersécurité sont au cœur de mes préoccupations.</p>
+                        </div>
+                        <div class="value-card card">
+                            <div class="value-icon">💡</div>
+                            <h3>Créativité</h3>
+                            <p>J'aime résoudre des problèmes complexes avec des solutions élégantes et efficaces.</p>
+                        </div>
+                    </div>
+                </article>
+                
+                <div class="skills-summary" data-animate="fade-up">
+                    <div class="section__header">
+                        <h2 class="section__title">Mes Compétences Clés</h2>
+                        <div class="divider"></div>
+                    </div>
+                    <div class="skills-bars">
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>Développement Web</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>UI/UX Design</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 75%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>Cybersécurité</span>
+                                <span>65%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 65%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center" style="margin-top: 40px;">
+                        <a href="skill.html" class="btn btn--primary">Voir toutes mes compétences</a>
+                    </div>
+                </div>
+                
+                <section class="section cta-section" data-animate="fade-up">
+                    <div class="container">
+                        <h2 class="cta-section__title">Travaillons ensemble</h2>
+                        <p class="cta-section__subtitle">Vous avez un projet en tête ou souhaitez en savoir plus sur mon travail ? N'hésitez pas à me contacter !</p>
+                        <a href="contact.html" class="btn btn--primary">Me contacter</a>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2025 Portfolio ZIOUBOU Pierre</p>
+    </footer>
+    <script src="static/js/main.js" defer></script>
+</body>
+</html>

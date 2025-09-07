@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Découvrez les compétences techniques et les technologies maîtrisées par ZIOUBOU Pierre en développement web.">
+    <title>Compétences - Portfolio ZIOUBOU Pierre</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Slab:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <a href="index.html" class="header__logo" aria-label="Retour à l'accueil">
+                ZIOUBOU Pierre
+            </a>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Accueil</a></li>
+                    <li class="nav__item"><a href="skill.html" class="nav__link nav__link--active">Compétences</a></li>
+                    <li class="nav__item"><a href="project.html" class="nav__link">Projets</a></li>
+                    <li class="nav__item"><a href="about.html" class="nav__link">À propos</a></li>
+                    <li class="nav__item"><a href="contact.html" class="nav__link">Contact</a></li>
+                    <li class="nav__item">
+                        <button id="theme-toggle" class="theme-toggle" aria-label="Changer le thème du site">
+                            <span class="theme-icon">🌓</span>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main skill-page">
+        <section id="competences" class="section">
+            <div class="container">
+                <div class="section__header">
+                    <h1 class="section__title">Mes Compétences</h1>
+                    <p>Voici un aperçu de mes compétences techniques et professionnelles</p>
+                </div>
+
+                <div class="skills-container" data-animate="fade-up">
+                    <article class="skill-category card">
+                        <h2 class="skill-category__title">Frontend</h2>
+                        <ul class="skill-category__list">
+                            <li>HTML5 & CSS3</li>
+                            <li>JavaScript (ES6+)</li>
+                            <li>React.js</li>
+                            <li>Angular</li>
+                            <li>Responsive Design</li>
+                        </ul>
+                    </article>
+
+                    <article class="skill-category card">
+                        <h2 class="skill-category__title">Backend</h2>
+                        <ul class="skill-category__list">
+                            <li>Python (Django)</li>
+                            <li>Java</li>
+                        </ul>
+                    </article>
+
+                    <article class="skill-category card">
+                        <h2 class="skill-category__title">Bases de données</h2>
+                        <ul class="skill-category__list">
+                            <li>PostgreSQL</li>
+                            <li>MongoDB</li>
+                            <li>MySQL</li>
+                        </ul>
+                    </article>
+
+                    <article class="skill-category card">
+                        <h2 class="skill-category__title">Outils & Méthodologies</h2>
+                        <ul class="skill-category__list">
+                            <li>Git & GitHub</li>
+                            <li>Visual Studio Code</li>
+                            <li>Canva</li>
+                        </ul>
+                    </article>
+
+                    <article class="skill-category card">
+                        <h2 class="skill-category__title">Soft Skills</h2>
+                        <ul class="skill-category__list">
+                            <li>Travail d'équipe</li>
+                            <li>Communication efficace</li>
+                            <li>Résolution de problèmes</li>
+                            <li>Gestion du temps</li>
+                            <li>Adaptabilité</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Portfolio ZIOUBOU Pierre</p>
+    </footer>
+
+    <script src="static/js/main.js" defer></script>
+</body>
+</html>

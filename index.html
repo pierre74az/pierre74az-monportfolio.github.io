@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Découvrez le portfolio de ZIOUBOU Pierre, développeur web Full Stack passionné par la création de solutions innovantes et performantes.">
+    <meta name="keywords" content="portfolio, développeur, full stack, ZIOUBOU Pierre, développement web, projets, compétences, JavaScript, Python, React, Django">
+    <title>Portfolio - ZIOUBOU Pierre | Développeur Full Stack</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Slab:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <a href="index.html" class="header__logo" aria-label="Retour à l'accueil">
+                ZIOUBOU Pierre
+            </a>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link nav__link--active">Accueil</a></li>
+                    <li class="nav__item"><a href="skill.html" class="nav__link">Compétences</a></li>
+                    <li class="nav__item"><a href="project.html" class="nav__link">Projets</a></li>
+                    <li class="nav__item"><a href="about.html" class="nav__link">À propos</a></li>
+                    <li class="nav__item"><a href="contact.html" class="nav__link">Contact</a></li>
+                    <li class="nav__item">
+                        <button id="theme-toggle" class="theme-toggle" aria-label="Changer le thème du site">
+                            <span class="theme-icon">🌓</span>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main class="main home-page">
+        <section class="hero" data-animate="fade-in">
+            <div class="hero__content">
+                <h1 class="hero__title">Développeur Full Stack</h1>
+                <p class="hero__subtitle">Passionné par la création de solutions web innovantes et performantes</p>
+                <div class="hero__cta-buttons">
+                    <a href="#projects" class="btn btn--primary">Voir mes projets</a>
+                    <a href="contact.html" class="btn btn--outline">Me contacter</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="competences" class="section" data-animate="fade-up">
+            <div class="section__header">
+                <h2 class="section__title">Mes Compétences</h2>
+                <p>Un aperçu de mes principales compétences techniques</p>
+            </div>
+            <div class="skills-preview">
+                <article class="skill-card" data-animate="fade-up">
+                    <div class="skill-card__icon">💻</div>
+                    <h3 class="skill-card__title">Frontend</h3>
+                    <p class="skill-card__description">HTML5, CSS3, JavaScript, React, Angular</p>
+                </article>
+                <article class="skill-card" data-animate="fade-up" data-animate-delay="0.1s">
+                    <div class="skill-card__icon">🔧</div>
+                    <h3 class="skill-card__title">Backend</h3>
+                    <p class="skill-card__description">Python, Java, Django, Node.js</p>
+                </article>
+                <article class="skill-card" data-animate="fade-up" data-animate-delay="0.2s">
+                    <div class="skill-card__icon">📊</div>
+                    <h3 class="skill-card__title">Bases de données</h3>
+                    <p class="skill-card__description">PostgreSQL, MongoDB, MySQL</p>
+                </article>
+            </div>
+            <div class="text-center" style="margin-top: 50px;">
+                <a href="skill.html" class="btn btn--outline">Voir toutes mes compétences</a>
+            </div>
+        </section>
+
+        <section id="projets" class="section" data-animate="fade-up">
+            <div class="section__header">
+                <h2 class="section__title">Mes Projets Récents</h2>
+                <p>Découvrez une sélection de mes réalisations</p>
+            </div>
+            <div class="projects-preview">
+                <article class="project-card-preview" data-animate="fade-up">
+                    <div class="project-card-preview__image">
+                        <picture>
+                            <source media="(min-width: 600px)" srcset="static/Image/Calculateur_pret.png">
+                            <img src="static/Image/Calculateur_pret.png" 
+                                alt="Capture d'écran de l'application Calculateur de prêt" 
+                                loading="lazy" 
+                                class="lazy-image"
+                                width="800"
+                                height="500">
+                        </picture>
+                    </div>
+                    <div class="project-card-preview__info">
+                        <h3 class="project-card-preview__title">Calculateur de prêt</h3>
+                        <p class="project-card-preview__description">Application web pour calculer les mensualités d'emprunt avec visualisation graphique.</p>
+                        <div class="project-card-preview__tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="text-center" style="margin-top: 50px;">
+                <a href="project.html" class="btn btn--outline">Voir tous mes projets</a>
+            </div>
+        </section>
+
+        <section id="contact-cta" class="section cta-section" data-animate="fade-up">
+            <div class="cta-section__content">
+                <h2 class="cta-section__title">Un projet en tête ?</h2>
+                <p class="cta-section__subtitle">Je suis disponible pour discuter de nouvelles opportunités ou collaborations.</p>
+                <a href="contact.html" class="btn btn--primary">Me contacter</a>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <p>&copy; 2025 Portfolio ZIOUBOU Pierre</p>
+    </footer>
+    
+    <script src="static/js/main.js" defer></script>
+</body>
+</html>
